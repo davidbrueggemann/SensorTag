@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mqtt_Publisher
+Bundle-SymbolicName: Mqtt_Publisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Mqtt_Publisher.jar,
+ lib/org.eclipse.paho.client.mqttv3-1.0.2.jar
+Export-Package: de.gebit.mqtt,
+ org.eclipse.paho.client.mqttv3,
+ org.eclipse.paho.client.mqttv3.internal,
+ org.eclipse.paho.client.mqttv3.internal.nls,
+ org.eclipse.paho.client.mqttv3.internal.security,
+ org.eclipse.paho.client.mqttv3.internal.wire,
+ org.eclipse.paho.client.mqttv3.logging,
+ org.eclipse.paho.client.mqttv3.persist,
+ org.eclipse.paho.client.mqttv3.util
+Require-Bundle: Sensortag;bundle-version="1.0.0"
